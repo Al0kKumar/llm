@@ -1,4 +1,4 @@
-import OpenAIServices from "../../../../integration/openai/openai";
+import OpenAIServices from "../../../../integration/together/together";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(request: NextRequest) {
