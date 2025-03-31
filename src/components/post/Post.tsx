@@ -66,7 +66,7 @@ const Post = () => {
     }
   }
 
-  return (
+  return  (
     <div className="max-w-screen-lg mx-auto flex flex-col items-center md:mt-10 p-4">
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="w-full">
